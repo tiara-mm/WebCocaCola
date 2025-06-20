@@ -313,14 +313,6 @@ h2 {
   color: #eeeeee;
 } 
 
-.user-link {
-  margin-left: 300px;
-}
-#user {
-  font-size: 24px;
-  color: rgb(0, 0, 0);
-}
-
 
 #boton i {
   margin-right: 9px;
@@ -329,5 +321,6 @@ h2 {
 }
 
 hr {
-  background-color: #c7c7c7;
+  height: 2px;
+  background-color: #ffffff;
 }
