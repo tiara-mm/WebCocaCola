@@ -8,56 +8,51 @@
   <!-- Bootstrap 5 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
-  
   <!-- Bootstrap 5 JS Bundle -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="icon" type="image/png" href="img/icons8-coca-cola.gif"">
-
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-<!-- NAVBAR -->
-<nav class="mi-navbar">
-  <div class="navbar-container">
-    <a class="logo" href="#">
-      <img src="img/Coke-company-logo-black.svg" alt="Coca-Cola" height="40">
-    </a>
-    <ul class="navbar-menu">
-      <li class="nav-item"><a class="nav-link" href="#">Marcas</a></li>
+  <nav class="mi-navbar">
+    <div class="navbar-container">
+      <a class="logo" href="#">
+        <img src="img/Coke-company-logo-black.svg" alt="Coca-Cola" height="40">
+      </a>
+      <ul class="navbar-menu">
+        <li class="nav-item"><a class="nav-link" href="#">Marcas</a></li>
 
-      <li class="nav-item dropdown">
-        <a class="nav-link con-flecha" href="#">Descubrí</a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Compartí una Coca‑Cola</a></li>
-          <li><a class="dropdown-item" href="#">Juntos en Todas</a></li>
-          <li><a class="dropdown-item" href="#">Coke Studio</a></li>
-          <li><a class="dropdown-item" href="#">The Athletes Code</a></li>
-        </ul>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link con-flecha" href="#">Impacto</a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Sustentabilidad</a></li>
-          <li><a class="dropdown-item" href="#">Social</a></li>
-        </ul>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link con-flecha" href="#">Comprar</a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Coca Cola en tu Casa (CABA y GBA)</a></li>
-          <li><a class="dropdown-item" href="#">Coca Cola en tu Casa (CORDOBA)</a></li>
-          <li><a class="dropdown-item" href="#">Tiendas</a></li>
-        </ul>
-      </li>
-    </ul>
-  </div>
-</nav>
+        <li class="nav-item dropdown">
+          <a class="nav-link con-flecha" href="#">Descubrí</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Compartí una Coca‑Cola</a></li>
+            <li><a class="dropdown-item" href="#">Juntos en Todas</a></li>
+            <li><a class="dropdown-item" href="#">Coke Studio</a></li>
+            <li><a class="dropdown-item" href="#">The Athletes Code</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link con-flecha" href="#">Impacto</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Sustentabilidad</a></li>
+            <li><a class="dropdown-item" href="#">Social</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link con-flecha" href="#">Comprar</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Coca Cola en tu Casa (CABA y GBA)</a></li>
+            <li><a class="dropdown-item" href="#">Coca Cola en tu Casa (CORDOBA)</a></li>
+            <li><a class="dropdown-item" href="#">Tiendas</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-  <!-- ESPACIADOR -->
   <div style="margin-top: 75px;"></div>
 
-  <!-- CAROUSEL -->
   <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -88,6 +83,7 @@
 
   <div class="novedades">
     <h2 class="alineados">¿Qué hay de nuevo?</h2>
+
     <div class="novedades-container">
       <div class="novedades-box">
         <img src="img/width1960 (5).webp" alt="Lollapalooza" />
@@ -106,7 +102,6 @@
           <h2><a href="#">Conocelos → </a></h2>
         </div>
       </div>
-
     </div>
   </div>
 
@@ -125,9 +120,24 @@
     </div>
   </div>
 
-  
-
-
+   
+  <h2 class="alineados"> Contacto </h2>
+  <div class="contacto">
+    <div class="form">
+    <form action="#" method="post">
+      <label for="name">Nombre:</label><br>
+      <input type="text" id="name" name="name"><br><br>
+    
+      <label for="email">Correo Electrónico:</label><br>
+      <input type="email" id="email" name="email"><br><br>
+    
+      <label for="message">Mensaje:</label><br>
+      <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+    
+      <input id="boton" type="submit" value="Enviar">
+    </form>
+    </div>
+  </div>
 
 
 
@@ -145,7 +155,6 @@
         </div>
         <a id="boton" href="#"> Ver más </a>
       </div>
-    
   </div>
 
   <footer class="footer">
@@ -159,12 +168,8 @@
         <a id="boton" href="#">
           <i class="bi bi-geo-alt"></i> Argentina
         </a>
-
       </div>
-
-      
         <hr class="my-4" />
-
       
       <div class="footer-row">
       
@@ -207,7 +212,6 @@
         </div>
 
       </div>
-
 
     </div>
 
